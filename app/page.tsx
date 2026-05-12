@@ -80,7 +80,7 @@ const App = () => {
     }
   }, [stickers, phone, isLoading, isReadOnly]);
 
-  const toggleSticker = (index) => {
+  const toggleSticker = (index:number) => {
     if (isReadOnly) return; // Bloquear edición en modo compartido
     const newStickers = [...stickers];
     newStickers[index] = ((newStickers[index] + 1) % 3) as Status;
