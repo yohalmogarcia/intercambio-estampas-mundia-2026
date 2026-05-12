@@ -14,3 +14,8 @@ Cuando hayas terminado de seleccionar todas las estampas, entoncs haces clic en 
 
 Recuerda poner bien tu numero de telefono, porque sera el medio por el cual se comuniquen contigo.
 
+## Disclaimer
+Este solo es un proyecto para conocer el flujo de despliegue en Versel desde Github, todo fue hecho con Gemini, aun la resolucion de errores en el codigo y despligue del mismo,
+ no es una web oficial de ninguna empresa.
+
+Es un sitio totalmente inseguro.
