@@ -22,11 +22,12 @@ import {
  * 1: Lo Tengo (Azul)
  * 2: Repetida (Verde)
  */
+type Status = 0 | 1 | 2;
 const TOTAL_STICKERS = 980;
 const APP_ID = "mundial-2026-album";
 
 const App = () => {
-  const [stickers, setStickers] = useState([]);
+  const [stickers, setStickers] = useState<Status[]>([]);
   const [phone, setPhone] = useState("71234567");
   const [viewMode, setViewMode] = useState('all'); 
   const [isLoading, setIsLoading] = useState(true);
